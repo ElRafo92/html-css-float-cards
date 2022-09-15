@@ -1,3 +1,5 @@
+/*--- RESET ---*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +12,8 @@
     clear: both;
 }
 
+/*--- BODY ---*/
+
 body{
     font-family: 'Fredoka', sans-serif;
 }
@@ -20,6 +24,8 @@ body{
     margin: auto;
 }
 
+/* TIOTLO */
+
 .titolo{
     text-align: center;
     color: #E53170;
@@ -29,19 +35,35 @@ body{
     text-align: center;
 }
 
-/*
-.box{
-    width: 1000px;
-    background-color: red;
-}
-*/
+/* LAYOUT E CARD */
 
 .col-card{
-    height: 300px;
     width: calc(33% - 60px);
-    background-color: red;
+    background-color: black;
     float: left;
-    border: 1px solid black;
-    margin: 50px 30px;
-    
+    margin: 35px 30px;
 }
+
+.img-card{
+    width: 33%;
+    display: block;
+    float: left;
+}
+
+.info-card{
+    width: 66%;
+    float: left;
+    padding: 10px 10px;
+}
+
+h3, h5, a{
+    margin: 3px;
+    text-align: left;
+    color: white;
+}
+
+small{
+    color: #20A9E5;
+}
+
+a{text-decoration: none;}
