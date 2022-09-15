@@ -41,7 +41,7 @@ body{
     width: calc(33% - 60px);
     background-color: black;
     float: left;
-    margin: 25px 20px;
+    margin: 25px 20px;box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 4px 4px;
 }
 
 .img-card{
